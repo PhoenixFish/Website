@@ -6,7 +6,39 @@
     </head>
     <body>
         <h1>This is my home page!</h1>
-        <img src="images/spinning-fish.gif" width=100% alt="My mascot">
+        <img src="images/spinning-fish.gif" width=100% alt="My spinning fish mascot">
         
+        <form>
+            <label for="helpfulness">Has this information been helpful?</label>
+            <input type="radio" id="yes" name="Helpfulness" value="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="Helpfulness" value="no" />
+            <label for="no">No</label>
+            <br />
+            <br />
+            <label for="revisit">Would you revisit this website?</label>
+            <input type="radio" id="Yes" name="Revisit" value="Yes" />
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="Revisit" value="No" />
+            <label for="No">No</label>
+            <br />
+            <br />
+            <label for="feedback">Do you have any feeback for me?</label>
+            <input type="text" id="answer" />
+            <br />
+            <br />
+            <label for="favourites">Which webpages were your favourite?</label>
+            <br />
+            <input type="checkbox" id="game1" name="Minecraft" value="game1">
+            <label for="game1"> Minecraft</label><br />
+            <input type="checkbox" id="game2" name="Grounded2" value="game2">
+            <label for="game2"> Grounded 2</label><br />
+            <input type="checkbox" id="game3" name="Dead-by-daylight" value="game3">
+            <label for="game3"> Dead by Daylight</label><br />
+            <input type="checkbox" id="game4" name="Alien-Isolation" value="game4">
+            <label for="game4"> Alien Isolation</label>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
     </body>
 </html>
