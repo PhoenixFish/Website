@@ -1,5 +1,7 @@
 body{
-    background-color:#171616
+    background-color:#171616;
+    font-family: Cambria, Cochin, Georgia, Times;
+    color:rgb(180, 7, 7)
 }
 
 h1{
@@ -19,5 +21,10 @@ li{
 }
 
 a{
-    color:#bf6211
+    color:#bf6211;
+    font-style:italic
+}
+
+.Fish{
+    color:#e84c81
 }
