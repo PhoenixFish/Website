@@ -1,0 +1,23 @@
+body{
+    background-color:#171616
+}
+
+h1{
+    color:#D43919;
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+    font-style:italic
+}
+
+p{
+    color:rgb(180, 7, 7)
+}
+
+li{
+    color:#9a0101
+}
+
+a{
+    color:#bf6211
+}
