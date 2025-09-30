@@ -1,30 +1,85 @@
-body{
-    background-color:#171616;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
     font-family: Cambria, Cochin, Georgia, Times;
-    color:rgb(180, 7, 7)
+    color: rgb(244, 133, 133);
 }
 
-h1{
-    color:#D43919;
-    text-align:center;
-    text-decoration:underline;
-    font-weight:bold;
-    font-style:italic
+.index {
+    background-image: url(Images/Tsugikuni.png);
 }
 
-p{
-    color:rgb(180, 7, 7)
+h1 {
+    color: #f9d1c9;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
 }
 
-li{
-    color:#9a0101
+p {
+    color: rgb(245, 122, 122);
 }
 
-a{
-    color:#bf6211;
-    font-style:italic
+li {
+    color: #fd5b5b;
 }
 
-.Fish{
-    color:#e84c81
+a {
+    color: #c662e3;
+    font-style: italic;
+    text-align: center
+}
+
+.Fish {
+    color: #e84c81;
+}
+
+.Banner {
+    background-image: url(Images/BannerKanjiLonger.png);
+    border-radius: 25px;
+}
+
+.card {
+    color: white;
+    border: 4px solid #333;
+    border-radius: 8px;
+    width: 300px;
+    padding: 16px;
+    margin: 12px;
+    background-image: url(Images/KokuPattern.jpg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-image: url(Images/KokuPattern.jpg);
+}
+
+.name {
+    font-style: italic;
+}
+
+.centre {
+    max-width: 800px;
+    height:100%;
+    background-image: url(Images/YoriichiHaoriColour.png);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px
 }
