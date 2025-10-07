@@ -12,6 +12,9 @@ body {
 
 .index {
     background-image: url(Images/Tsugikuni.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -31,9 +34,9 @@ li {
 }
 
 a {
-    color: #c662e3;
+    color: #ecb4fc;
     font-style: italic;
-    text-align: center
+    text-align: center;
 }
 
 .Fish {
@@ -71,15 +74,63 @@ a {
     background-image: url(Images/KokuPattern.jpg);
 }
 
+.boxtext {
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
 .name {
     font-style: italic;
 }
 
 .centre {
     max-width: 800px;
-    height:100%;
+    height: 100%;
     background-image: url(Images/YoriichiHaoriColour.png);
     margin-left: auto;
     margin-right: auto;
-    padding: 50px
+    padding: 50px;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+
+/* Unchangeable */
+
+.navbutton {
+    background-image: url(Images/KokuPattern.jpg);
+    border: 2px dashed #444;
+
+    display: inline-block;
+    width: 100px;
+    margin: -5px;
+    padding: 10px;
+}
+
+/* Phone/mobile */
+
+.navbutton {
+    width:100%;
+    margin: 2px;
+}
+
+/* Tablet and up */
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: -4px;
+    }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+    .navbutton {
+        display: inline-block;
+        width: 150px;
+        margin: 10px;
+    }
 }
